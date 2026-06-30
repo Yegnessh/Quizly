@@ -919,7 +919,7 @@ function selectOption(letter){
 
   if(isCorrect) session.correct++; else session.wrong++;
 
-  // Style all options
+  // Style all option
   q.options.forEach(o => {
     const el = $('opt-'+o.letter);
     el.classList.add('locked');
